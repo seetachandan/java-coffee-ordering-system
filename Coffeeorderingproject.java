@@ -1,6 +1,4 @@
 import java.util.Scanner;
-                 //Did on 04/July/2026 on your qwn without any help from AI or any other search engine
-                 // Enhanced on 6/7/2026 and took some help from jenny mam videos!! Updated invalid choices, using do while loop, break statement. working great!!
 public class Coffeeorderingproject
 {
 
@@ -10,7 +8,7 @@ public class Coffeeorderingproject
         int Espresso = 200;
         int Cappuccino = 250;
         int Latte = 300;
-        int itemcost = 0;  //why i cannot able to initialize item cost as : int itemcost; its giving error!!, so i assigned its value as 0 at first.
+        int itemcost = 0; 
         do {
             System.out.println("********************");
             System.out.println("WELCOME TO COFFEE TIME!!!");
@@ -82,100 +80,3 @@ public class Coffeeorderingproject
 
     }
 }
-
-
-
-
-                   /*      Look here if I press 0 the loop kept repeating Edge cases need to be focused!!
-
-if (whipped == 1)
-                         {
-                         itemcost +=30;
-                         break;
-                         }
-                         else
-                         {
-                         System.out.println("Invalid Choice");
-}
-
-                         What if user enters
-
-0
-
-                         According to your menu
-
-                         YES = 1
-
-                         NO = 0
-
-                         Choosing 0 should simply continue without adding ₹30.
-
-                         But your program prints
-
-                         Invalid Choice!!
-
-                         That isn't correct.
-
-                         It should be:
-
-                         if(whipped==1)
-                         {
-                         itemcost+=30;
-                         break;
-                         }
-                         else if(whipped==0)
-                         {
-                         break;
-                         }
-                         else
-                         {
-                         System.out.println("Invalid Choice");
-}
-
-                         Same problem exists here
-
-                         option
-
-                         If user selects
-
-0
-
-                         It should skip the flavor selection.
-
-                         Instead
-
-                         Invalid Choice
-                         Another improvement
-
-                         Instead of
-
-                         itemcost = itemcost +30;
-
-                         Professional Java programmers write
-
-                         itemcost +=30;
-
-                         Similarly
-
-                         Instead of
-
-                         itemcost = itemcost +25;
-
-                         write
-
-                         itemcost +=25;
-
-                         Cleaner.
-*/
-
-
-
-
-
-
-
-
-
-
-
-
