@@ -32,5 +32,4 @@ This project helped me practice:
 - Basic Project Design
 
 ## Author
-
-Your Name
+Seeta.Chandan
